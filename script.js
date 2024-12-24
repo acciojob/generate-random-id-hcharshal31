@@ -5,7 +5,7 @@ function makeid(l) {
 	  let randomIndex = Math.floor(Math.random() * characters.length);
 	  result += characters[randomIndex];
   }
-	return randomIndex;
+	return result;
 }
 
 // Do not change the code below.
