@@ -1,7 +1,8 @@
 function makeid(l) {
-  for(let i = 0; i < l; i++){
-	  let characters = const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	let characters = const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 	  let result = "";
+  for(let i = 0; i < l; i++){
+	  
 	  let randomIndex = Math.floor(Math.random() * characters.length);
 	  result += characters[randomIndex];
   }
